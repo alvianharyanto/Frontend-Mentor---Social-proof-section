@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  font-family: 'Spartan';
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin: 5rem;
+}
+
+.info,
+.rate,
+.review {
+  display: flex;
+}
+
+.info {
+  width: 50%;
+  flex-direction: column;
+}
+
+.info .info__title {
+  width: 80%;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #502050;
+  line-height: 1;
+  margin-bottom: .9rem;
+}
+
+.info .info__text {
+  width: 85%;
+  color: #937b92;
+  font-weight: 500;
+}
+
+.rate {
+  width: 50%;
+  flex-direction: column;
+}
+
+.rate .rate_content {
+  width: 75%;
+  background: #f7f2f7;
+  padding: 1rem 1.3rem;
+  margin: .5rem;
+  border-radius: .5rem;
+}
+
+.rate .rate_content:nth-child(2) {
+  transform: translateX(4rem);
+}
+
+.rate .rate_content:nth-child(3) {
+  transform: translateX(8rem);
+}
+
+.rate .rate__star {
+  margin: 0 1rem 0 0;
+}
+
+.rate .rate__star img {
+  width: .9rem;
+}
+
+.rate .rate__text {
+  font-weight: 700;
+  color: #502050;
+}
+
+.review {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.review_content {
+  background: #502050;
+  display: flex;
+  flex-wrap: wrap;
+  width: 32%;
+  border-radius: .5rem;
+  color: white;
+}
+
+.review_content:nth-child(2) {
+  transform: translateY(1rem);
+}
+
+.review_content:nth-child(3) {
+  transform: translateY(2rem);
+}
+
+.review_content div {
+  margin: 1.5rem 0;
+}
+
+.review_content p {
+  padding: 0 2rem 1.5rem;
+}
+
+.review__images {
+  width: 30%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.review__images img {
+  border-radius: 50%;
+  width: 40%;
+  position: absolute;
+}
+
+.review__top {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.review__top .name {
+  color: white;
+  font-weight: 700;
+}
+
+.review__top .status {
+  color: #ee68a4;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
