@@ -161,7 +161,13 @@ body {
 }
 
 // mobile
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 9600px) {
+    body {
+        background-color: $white;
+        background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+        background-position: top left, bottom right;
+        background-repeat: no-repeat;
+    }
 
     .container,
     .container>* {
