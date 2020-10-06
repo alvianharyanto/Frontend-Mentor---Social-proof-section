@@ -153,7 +153,7 @@ body {
   color: #3e52a3;
 }
 
-@media screen and (max-width: 9600px) {
+@media screen and (max-width: 960px) {
   body {
     background-color: white;
     background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
@@ -206,6 +206,7 @@ body {
   .review__top {
     margin: 1.5rem 0 1rem;
     padding: 0 1rem;
+    height: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
