@@ -24,8 +24,8 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: auto;
     margin: 5rem;
+    max-width: 1450px;
 
 }
 
@@ -161,7 +161,7 @@ body {
 }
 
 // mobile
-@media screen and (max-width : 960px) {
+@media screen and (max-width : 864px) {
     body {
         background-color: $white;
         background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
